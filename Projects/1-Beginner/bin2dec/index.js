@@ -29,6 +29,7 @@ const formValidation = (input) => {
   } else {
     // if we get to here we have valid input and can return the decimal
     answer.textContent = `${bin2Dec(input.value)}`;
+    // clear form after submission
     input.value = '';
   }
 };
